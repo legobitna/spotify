@@ -1,0 +1,134 @@
+
+  nav {
+    height: 60px;
+    background-color: black;
+  }
+  
+  section {
+    height: 800px;
+    background: linear-gradient(#f037a5 -60%,#fae62d 140%);
+  }
+  
+  footer {
+    height: 600px;
+    background-color: black;
+  }
+  .spotify-logo {
+    width: 132px;
+    height: 41.88px;
+    margin:10px;
+  }
+  .container {
+    height: 100%;
+    display: flex; 
+    margin: 0 auto;   /*auto 는 가운데 정렬 */
+    padding: 0 15px;
+    max-width: 1170px;   /*최대사이즈 지정 */
+    align-items: center;  /*세로 가운데 정렬  */
+  }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav li {
+    margin-right: 10px;
+  }
+  .nav-container {
+   display: flex;
+   text-align: center;
+   justify-content:space-between;
+  }
+  .hero-img {
+    height: 100%;
+    margin: 0 auto;
+    background-image: url(img/hero-burst.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #title {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -0.04em; /*글자간격 */
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  section .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btn-spotify{
+    color:white;
+    width: 260px;
+    background-color: #1db954;
+    border: 0px;
+    padding: 18px 42px 18px;
+    margin-top: 16px;
+    border-radius: 500px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 2px;
+    transition-duration: 0.3s;
+  }
+  .btn-spotify:hover {
+    cursor: pointer; /*손가락으로 포인터가 바뀜 */
+    background-color: #1ed760; 
+  }
+
+  .menu{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+ .menu a {
+    color: white;
+    text-decoration: none;
+    
+  }
+  .menu a:hover {
+    color:grey;
+  }
+  .footer-menu{
+    display: flex;
+    margin-top: 50px; 
+    width:100%; /* 이걸안하면 space-between 이 안먹음 */ 
+    justify-content: space-between;
+    
+  }
+  .menu li{
+    line-height: 2.15;
+  }
+i{
+  margin-left:10px;
+}
+
+.leftSide a{
+  color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.rightSide{
+  color:white;
+}
+.buttom-footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  
+}
+
+.footer-container {
+  flex-direction: column
+}
